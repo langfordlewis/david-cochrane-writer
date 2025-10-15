@@ -1,0 +1,12 @@
+# macOS system files
+.DS_Store
+
+# Node modules (if you ever use Node.js)
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# Build and cache files
+dist/
+*.log
