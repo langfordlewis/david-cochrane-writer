@@ -1,0 +1,74 @@
+/* Reset for consistent styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header layout */
+header {
+    position: sticky; /* Keeps it visible on scroll */
+    top: 0;
+    z-index: 1000;
+    background: #fff; /* Or your preferred background */
+    border-bottom: 1px solid #ccc;
+}
+
+/* Name section */
+.header-top {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.site-title {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+/* Navbar styling */
+.main-nav {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav li {
+    margin: 0 1.5rem;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding: 1rem 0;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: #b64949; /* accent color */
+}
+
+@media (max-width: 600px) {
+    .site-title {
+        font-size: 1.5rem;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-nav li {
+    margin: 0.5rem 0;
+    }
+}
